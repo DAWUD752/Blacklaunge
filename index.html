@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warkop BlackLounge | Tempat Nongkrong 24 Jam Mojolangu Malang</title>
+    <meta name="description" content="Warkop BlackLounge, tempat nongkrong 24 jam di Mojolangu, Malang. Sajian kopi, makanan, dan suasana nyaman kapan pun Anda butuh.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">BLACK<span>LOUNGE</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#kenapa">Tentang</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#lokasi">Lokasi</a></li>
+            </ul>
+            <a href="#lokasi" class="btn-primary desktop-cta">Lihat Lokasi</a>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Close Menu">
+            <i data-lucide="x"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#kenapa" class="mobile-nav-link">Tentang</a></li>
+            <li><a href="#menu" class="mobile-nav-link">Menu</a></li>
+            <li><a href="#galeri" class="mobile-nav-link">Galeri</a></li>
+            <li><a href="#lokasi" class="mobile-nav-link">Lokasi</a></li>
+        </ul>
+        <a href="#lokasi" class="btn-primary mobile-cta mobile-nav-link">Lihat Lokasi</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="overlay"></div>
+            <!-- Grain effect using CSS -->
+            <div class="grain"></div>
+        </div>
+        <div class="container hero-content fade-in-up">
+            <div class="badge">
+                <i data-lucide="clock" width="16" height="16"></i> OPEN 24 HOURS • MOJOLANGU, MALANG
+            </div>
+            <h1 class="hero-title">Tempat Nongkrong, Kapan Pun.</h1>
+            <p class="hero-subtitle">Sebuah warkop dengan nuansa dark & modern. Cocok untuk nugas malam, ngobrol santai, atau sekadar melepas lelah.</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn-primary">Lihat Menu</a>
+                <a href="#lokasi" class="btn-secondary">Datang ke BlackLounge</a>
+            </div>
+        </div>
+        <div class="hero-info-bar">
+            <span>OPEN 24 HOURS</span>
+            <span class="dot">•</span>
+            <span>Mojolangu, Malang</span>
+            <span class="dot">•</span>
+            <span>Coffee • Food • Hangout</span>
+        </div>
+    </section>
+
+    <!-- Kenapa BlackLounge? Section -->
+    <section id="kenapa" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">Lebih dari Sekadar Warkop.</h2>
+                <p class="section-subtitle">Kami menyediakan ruang yang nyaman untuk semua kebutuhan Anda, siang maupun malam.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in-up" style="transition-delay: 100ms;">
+                    <div class="icon-wrapper"><i data-lucide="clock-4"></i></div>
+                    <h3>Buka 24 Jam</h3>
+                    <p>Kapan pun Anda butuh tempat, pintu kami selalu terbuka untuk Anda.</p>
+                </div>
+                <div class="feature-card fade-in-up" style="transition-delay: 200ms;">
+                    <div class="icon-wrapper"><i data-lucide="coffee"></i></div>
+                    <h3>Kopi & Minuman</h3>
+                    <p>Pilihan kopi dan minuman segar untuk menemani aktivitas Anda.</p>
+                </div>
+                <div class="feature-card fade-in-up" style="transition-delay: 300ms;">
+                    <div class="icon-wrapper"><i data-lucide="laptop"></i></div>
+                    <h3>Tempat Nugas Nyaman</h3>
+                    <p>Fasilitas WiFi dan colokan lengkap untuk produktivitas Anda.</p>
+                </div>
+                <div class="feature-card fade-in-up" style="transition-delay: 400ms;">
+                    <div class="icon-wrapper"><i data-lucide="users"></i></div>
+                    <h3>Nongkrong Bareng</h3>
+                    <p>Suasana asyik untuk kumpul dan ngobrol santai bersama teman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">Teman Nongkrongmu</h2>
+                <p class="section-subtitle">Pilihan menu terbaik untuk menemani waktu Anda di BlackLounge.</p>
+            </div>
+            
+            <div class="menu-tabs fade-in-up">
+                <button class="tab-btn active" data-target="semua">Semua</button>
+                <button class="tab-btn" data-target="coffee">Coffee</button>
+                <button class="tab-btn" data-target="non-coffee">Non-Coffee</button>
+                <button class="tab-btn" data-target="makanan">Makanan</button>
+            </div>
+
+            <div class="menu-grid fade-in-up">
+                <!-- Coffee -->
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-info">
+                        <h3>Kopi Hitam</h3>
+                        <p>Kopi klasik untuk menemani malam panjang.</p>
+                    </div>
+                    <div class="menu-price">Rp 8.000</div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-info">
+                        <h3>Kopi Susu</h3>
+                        <p>Perpaduan kopi dan susu yang creamy.</p>
+                    </div>
+                    <div class="menu-price">Rp 12.000</div>
+                </div>
+                <!-- Non Coffee -->
+                <div class="menu-card" data-category="non-coffee">
+                    <div class="menu-info">
+                        <h3>Es Teh</h3>
+                        <p>Sederhana, segar, dan cocok kapan saja.</p>
+                    </div>
+                    <div class="menu-price">Rp 5.000</div>
+                </div>
+                <div class="menu-card" data-category="non-coffee">
+                    <div class="menu-info">
+                        <h3>Red Velvet</h3>
+                        <p>Minuman manis dengan tekstur yang lembut.</p>
+                    </div>
+                    <div class="menu-price">Rp 15.000</div>
+                </div>
+                <!-- Makanan -->
+                <div class="menu-card" data-category="makanan">
+                    <div class="menu-info">
+                        <h3>Mie Instan Rebus/Goreng</h3>
+                        <p>Sajian hangat, andalan saat lapar di malam hari.</p>
+                    </div>
+                    <div class="menu-price">Rp 10.000</div>
+                </div>
+                <div class="menu-card" data-category="makanan">
+                    <div class="menu-info">
+                        <h3>Kentang Goreng</h3>
+                        <p>Snack renyah teman ngobrol bersama teman.</p>
+                    </div>
+                    <div class="menu-price">Rp 12.000</div>
+                </div>
+            </div>
+
+            <div class="menu-actions fade-in-up">
+                <a href="https://wa.me/6281234567890?text=Halo%20BlackLounge,%20saya%20mau%20pesan" target="_blank" class="btn-secondary">Pesan via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Section -->
+    <section class="signature-section">
+        <div class="signature-bg"></div>
+        <div class="overlay"></div>
+        <div class="container signature-content fade-in-up">
+            <h2 class="signature-title">Malam Belum Selesai.<br>BlackLounge tetap buka.</h2>
+            <p class="signature-text">Ketika tempat lain mulai menutup pintu, kami baru saja menghangatkan suasana. Kapan pun Anda butuh ruang untuk bekerja, berpikir, atau sekadar berbincang, kami ada di sini.</p>
+            <a href="#lokasi" class="btn-primary">Datang Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="galeri" class="section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">Suasana BlackLounge</h2>
+                <p class="section-subtitle">Intip sedikit kenyamanan yang menanti Anda di sini.</p>
+            </div>
+            
+            <div class="gallery-grid fade-in-up">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800" alt="Suasana malam cafe" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize-2"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=400" alt="Kopi" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize-2"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&q=80&w=400" alt="Interior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize-2"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?auto=format&fit=crop&q=80&w=400" alt="Tempat nugas" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize-2"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&q=80&w=400" alt="Nongkrong" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi Section -->
+    <section id="lokasi" class="section lokasi-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">Temukan Kami</h2>
+                <p class="section-subtitle">Lokasi strategis di pusat Mojolangu, mudah dijangkau kapan saja.</p>
+            </div>
+            
+            <div class="lokasi-grid fade-in-up">
+                <div class="lokasi-info">
+                    <div class="info-card">
+                        <div class="icon-wrapper"><i data-lucide="map-pin"></i></div>
+                        <div>
+                            <h3>Alamat</h3>
+                            <p>Jl. Manunggal Jl. Sudimoro Utara No.6, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65142</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon-wrapper"><i data-lucide="clock"></i></div>
+                        <div>
+                            <h3>Jam Operasional</h3>
+                            <p>Buka 24 Jam Setiap Hari</p>
+                        </div>
+                    </div>
+                    <div class="lokasi-actions">
+                        <a href="https://maps.google.com/?q=Warkop+BlackLounge+Malang" target="_blank" class="btn-primary" style="display: flex; align-items: center; justify-content: center; gap: 8px;"><i data-lucide="map" width="18" height="18"></i> Buka Google Maps</a>
+                        <button class="btn-secondary share-btn" data-url="https://maps.google.com/?q=Warkop+BlackLounge+Malang" style="display: flex; align-items: center; justify-content: center; gap: 8px;"><i data-lucide="share-2" width="18" height="18"></i> Bagikan Lokasi</button>
+                    </div>
+                </div>
+                <div class="lokasi-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5230919246183!2d112.61763131528616!3d-7.944203494276722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882759e66bb17%3A0x6e8e8e8e8e8e8e8e!2sMojolangu%2C%20Lowokwaru%2C%20Malang%20City%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre-Footer CTA -->
+    <section class="cta-section">
+        <div class="container fade-in-up">
+            <h2 class="cta-title">Lapar? Ngopi? Atau Cuma Butuh Tempat Nongkrong?</h2>
+            <p class="cta-subtitle">Jangan terlalu banyak mikir. Datang aja ke BlackLounge.</p>
+            <a href="#lokasi" class="btn-primary">Arah ke BlackLounge</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">BLACK<span>LOUNGE</span></a>
+                <p class="tagline">Tempat Nongkrong, Kapan Pun.</p>
+            </div>
+            <div class="footer-info">
+                <p style="display: flex; align-items: center; gap: 8px;"><i data-lucide="map-pin" width="18" height="18"></i> Mojolangu, Malang</p>
+                <p style="display: flex; align-items: center; gap: 8px;"><i data-lucide="clock" width="18" height="18"></i> Open 24 Hours</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                <a href="#" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+                <a href="#" aria-label="Google Maps"><i data-lucide="map"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Warkop BlackLounge. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Gallery -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close"><i data-lucide="x"></i></button>
+        <img src="" alt="Enlarged view" class="lightbox-img">
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
